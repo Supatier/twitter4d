@@ -78,16 +78,22 @@ t4d.setAccessToken(accessTokens);
 ```
   
   
-## How to compile with Twitter4D
-`$ dmd FileName.d twitter4d.d -L-lcurl`  
+## How to compile the example
+`mkdir build; cd build; cmake ..; ninja`  
   
   
 ## LICENSE
-The MIT LICENSE  
+MPL 2.0
 Copyright (C) 2014 alphaKAI
+Copyright (C) 2018 supatier
   
 
 ## Author
 alphaKAI  
 Twitter:[@alpha\_kai\_NET](https://twitter.com/alpha_kai_NET)  
-WebSite:[alpha-kai-net.info](http://alpha-kai-net.info)  
+WebSite:[alpha-kai-net.info](http://alpha-kai-net.info) 
+
+supatier
+
+This project uses the cmake build system for the D Programming 
+Language (cmake-d) licensed under the MIT license.
